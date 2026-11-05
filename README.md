@@ -60,7 +60,7 @@ pip install -r requirements.txt
 The data files are too big for GitHub, so please download them and put them in a folder called `data/` inside the main flock-refit folder. Both downloads are `.7z` files; 7-Zip can open them.
 
 ⭐⭐⭐
-Its very important !! to make the data folder inside the main flock-refit folder and put the extracted csv files there , because the script will fetch data from directly there. 
+Its important !! to make the data folder inside the main flock-refit folder and put the extracted csv files there , because the script will fetch data from directly there. 
 
 - **Raw data** ([download](https://pureportal.strath.ac.uk/files/62090177/REFIT_RAW_081116.7z)): copy House 1's two files (Part1 and Part2) into `data/` and name them `RAW_House1_Part1.csv` and `RAW_House1_Part2.csv`.
 - **Cleaned data** ([download](https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z)): copy `CLEAN_House2.csv`, `CLEAN_House15.csv`, `CLEAN_House16.csv` and `CLEAN_House17.csv` into `data/`.
