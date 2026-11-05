@@ -70,7 +70,7 @@ python sourcecode/main.py
 - **Plots** are saved in `plots/`. The folder already has the plots used in the .md files, and running the code saves the same plots there again (it replaces them).
 - **The first run is the slowest,** because it reads the big CSV files. Part 2 saves small `.pkl` copies in `data/`, so later runs are faster.
 - **Each part can also run alone,** for example `python sourcecode/Section3.py`.
-- **No plot windows open** (`SHOW = False` at the top of each file). Set it to `True` to see the plots while the code runs.
+- **No plot windows open** (`SHOW1 = False` at the top of `Section1.py`, `SHOW = False` in `Section2.py` and `Section3.py`). Set it to `True` to see the plots while the code runs.
 
 ## Main choices, and why
 
