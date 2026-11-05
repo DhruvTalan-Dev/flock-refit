@@ -27,15 +27,19 @@
 
 ```
 flock-refit/
-  requirements.txt      Python packages needed
   sourcecode/
     main.py             runs everything
     Section1.py         Part 1: clean raw House 1
     Section2.py         Part 2: washing-machine analysis
     Section3.py         Part 3: model
   plots/                the 5 plots shown in the .md files
-  data/                 put the REFIT files here (not uploaded: too big for GitHub)
-  DATA.md  RESULTS.md  Recommendation.md  README.md
+  data/           >>>>> put the REFIT data files here (not uploaded: too big for GitHub) after downloading from
+                        the official source (University of Strathclyde)
+  DATA.md  
+  README.md
+  RESULTS.md
+  Recommendation.md
+  requirements.txt      Python packages needed
 ```
 
 ## How to run
@@ -54,6 +58,9 @@ pip install -r requirements.txt
 ### 2. Get the data
 
 The data files are too big for GitHub, so please download them and put them in a folder called `data/` inside the main flock-refit folder. Both downloads are `.7z` files; 7-Zip can open them.
+
+⭐⭐⭐
+Its very important !! to make the data folder inside the main flock-refit folder and put the extracted csv files there , because the script will fetch data from directly there. 
 
 - **Raw data** ([download](https://pureportal.strath.ac.uk/files/62090177/REFIT_RAW_081116.7z)): copy House 1's two files (Part1 and Part2) into `data/` and name them `RAW_House1_Part1.csv` and `RAW_House1_Part2.csv`.
 - **Cleaned data** ([download](https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z)): copy `CLEAN_House2.csv`, `CLEAN_House15.csv`, `CLEAN_House16.csv` and `CLEAN_House17.csv` into `data/`.
