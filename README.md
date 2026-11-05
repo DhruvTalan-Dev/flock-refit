@@ -110,7 +110,7 @@ python sourcecode/main.py
 
 ## AI tools used
 
-- I used **Claude** (an AI assistant by Anthropic) to discuss options, explain ideas, draft and review code, and help write the .md files.
+- I used **Claude** (an AI assistant by Anthropic) to discuss options, explain ideas, review electrical equipment datasheets , manuals for equipment like washing machine , freezers , television etc. I also used Claude for reviewing bugs in my code and help me in formatting .md files.
 - I ran all the code myself on my computer, checked the outputs, and made the final choices. For example: dropping House 7, the "one heating = one wash" idea used in the wash rule and in model v2, and stopping model changes after v2.
 
 ## Possible improvements
